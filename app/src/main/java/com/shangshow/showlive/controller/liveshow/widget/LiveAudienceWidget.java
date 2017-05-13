@@ -172,6 +172,7 @@ public class LiveAudienceWidget extends RelativeLayout implements ModuleProxy, V
     // 选中的礼物
     private int giftPosition = -1;
     private List<Gift> giftList;
+
     //私信
     private LinearLayout replyPrivateLetterLayout;
     private RelativeLayout privateLetterLayout;
