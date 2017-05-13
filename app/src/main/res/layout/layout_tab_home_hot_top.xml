@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_tab_top_banner_pager" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home_top_bunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_hot_recommend_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/common_activity_padding_10"
+        android:paddingTop="@dimen/common_activity_padding_10" />
+
+</LinearLayout>
+
